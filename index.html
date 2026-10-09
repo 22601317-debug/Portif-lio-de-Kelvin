@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Kelvin</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <canvas id="fundo-hexagonos"></canvas>
+    <canvas id="efeito-neon"></canvas>
+
+    <header class="cabecalho">
+        <a href="#inicio" class="logo">
+            <h2>Kelvin</h2>
+        </a>
+
+        <nav class="navegacao">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#conquistas">Conquistas</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <button class="botao-tema" id="botao-tema" onclick="mudarTema()">☀️</button>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicio">
+            <div class="texto-inicio">
+                <p class="pequeno-titulo">OLÁ, EU SOU</p>
+                <h1>Kelvin Christian</h1>
+                <h2>Full Tech</h2>
+
+                <p class="descricao">
+                    Estou aprendendo a transformar ideias em sites modernos,
+                    simples e funcionais.
+                </p>
+
+                <div class="botoes">
+                    <a href="#conquistas" class="botao principal">
+                        Minhas conquistas
+                    </a>
+
+                    <a href="#contato" class="botao secundario">
+                        Entre em contato
+                    </a>
+                </div>
+            </div>
+
+            <div class="imagem-inicio">
+                <div class="Kelvin">
+                    <img src="Kelvin Foto.png" alt="Foto de Kelvin">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="secao">
+            <div class="titulo-secao">
+                <h2>Sobre mim</h2>
+            </div>
+
+            <div class="conteudo-sobre">
+                <div>
+                    <p>
+                        Meu nome é Kelvin Freitas, tenho 17 anos, com interesse em
+                        tecnologia e desenvolvimento. Tenho um conhecimento intermediário
+                        em HTML, CSS e JavaScript (Front-End), Banco de Dados (MySQL),
+                        linguagem em C# e pacote Office, além de experiência prática
+                        com APIs e automações utilizando N8N.
+                        Busco uma oportunidade de estágio para aprender, contribuir
+                        com projetos reais e evoluir profissionalmente na área de tecnologia.
+                    </p>
+
+                    <div class="redes-sociais">
+                        <a href="https://github.com/22601317-debug" target="_blank">
+                            GitHub
+                        </a>
+                        <a href="mailto:kchriatisn@gmail.com">
+                            Gmail
+                        </a>
+
+                        <a href="Curriculo.png" target="_blank">
+                            Currículo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="habilidades">
+                    <p>HABILIDADES</p>
+
+                    <div class="habilidade">
+                        <p>HTML</p>
+                        <div class="fundo-nivel">
+                            <div class="cor-nivel html"></div>
+                        </div>
+                    </div>
+
+                    <div class="habilidade">
+                        <p>CSS</p>
+                        <div class="fundo-nivel">
+                            <div class="cor-nivel css"></div>
+                        </div>
+                    </div>
+
+                    <div class="habilidade">
+                        <p>JAVASCRIPT</p>
+                        <div class="fundo-nivel">
+                            <div class="cor-nivel javascript"></div>
+                        </div>
+                    </div>
+
+                    <div class="habilidade">
+                        <p>Banco de Dados</p>
+                        <div class="fundo-nivel">
+                            <div class="cor-nivel banco"></div>
+                        </div>
+                    </div>
+
+                    <div class="habilidade">
+                        <p>C#</p>
+                        <div class="fundo-nivel">
+                            <div class="cor-nivel cs"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conquistas" class="secao">
+            <div class="Conquistas">
+            <div class="titulo-secao">
+                <h2>Conquistas</h2>
+            </div>
+
+            <div class="lista-conquistas">
+                <div class="conquista">
+                    <span>01</span>
+
+                    <div>
+                        <h3>CodeClub – Cotemig – 2025</h3>
+                        <p>Um curso gratuito focado em programação</p>
+                    </div>
+                </div>
+
+                <div class="conquista">
+                    <span>02</span>
+
+                    <div>
+                        <h3>Fundação Bradesco</h3>
+                        <p>Um curso gratuito focado em criação de sites em HTML e CSS</p>
+                    </div>
+                </div>
+
+                <div class="conquista">
+                    <span>03</span>
+
+                    <div>
+                        <h3>Cisco</h3>
+                        <p>Cursei em Front-End e ambientes computacionais</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="contato" class="secao contato">
+            <div class="Forms">
+            <div class="titulo-secao">
+                <h2 class="Entrar">Entre em contato</h2>
+            </div>
+
+            <form class="formulario-contato">
+                <div class="campos-formulario">
+                    <input type="text" placeholder="Nome:" required>
+                    <input type="email" placeholder="Email:" required>
+                </div>
+
+                <textarea placeholder="Digite sua mensagem..." required></textarea>
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2026 Kelvin Santos. Todos os direitos reservados.</p>
+    </footer>
+<script src="java.js"></script>
+</body>
+</html>
